@@ -1,0 +1,28 @@
+.container {
+  border: 1px solid var(--gray);
+  width: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.container h5 {
+  color: var(--dark-blue);
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.add {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+  width: fit-content;
+  padding: 10px 5px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: #12164252;
+}

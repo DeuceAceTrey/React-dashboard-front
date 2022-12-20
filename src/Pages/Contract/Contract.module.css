@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid var(--gray);
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.btn {
+  background-color: var(--dark-blue);
+  color: white;
+  width: fit-content;
+  padding: 10px 20px;
+  display: block;
+  margin: 0px auto;
+}
+
+.proposal {
+  font-size: 1rem;
+  font: inherit;
+  overflow-wrap: break-words;
+  white-space: pre-wrap;
+}

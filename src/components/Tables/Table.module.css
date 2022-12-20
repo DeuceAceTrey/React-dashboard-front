@@ -1,0 +1,25 @@
+.table {
+  border-spacing: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--gray);
+}
+
+.table thead {
+  background-color: var(--dark-blue);
+}
+
+.table th,
+.table td {
+  height: 3rem;
+  vertical-align: middle;
+}
+
+.table th {
+  color: white;
+}
+.table tr:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}

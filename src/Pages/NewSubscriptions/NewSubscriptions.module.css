@@ -1,0 +1,79 @@
+.cardsContainer {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 54rem) {
+  .cardsContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (orientation: portrait) {
+  .cardsContainer {
+    flex-direction: column;
+  }
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid var(--gray);
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 20px 10px;
+}
+
+.table th {
+  color: var(--dark-blue);
+  font-size: 2rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.buttonsContainer button {
+  color: var(--yellow);
+  font-weight: bold;
+  background-color: var(--dark-blue);
+}
+
+.benefitsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.benefit {
+  background-color: rgb(242, 242, 242);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 48%;
+  min-height: 16rem;
+}
+@media screen and (orientation: portrait) {
+  .benefitsContainer {
+    flex-direction: column;
+  }
+  .benefit {
+    width: 100%;
+    min-height: 100%;
+  }
+}

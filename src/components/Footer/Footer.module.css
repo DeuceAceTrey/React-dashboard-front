@@ -1,0 +1,15 @@
+.container {
+  background-color: var(--dark-blue);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--yellow);
+  padding: 10px;
+}
+
+.social > p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+  padding: 10px 50px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px auto;
+  color: var(--dark-blue);
+  font-size: 1.3rem;
+  font-family: AvenirNextLTPro-Regular;
+
+  letter-spacing: 0;
+  font-style: normal;
+}
+
+.container > img {
+  height: 3.5rem;
+}
